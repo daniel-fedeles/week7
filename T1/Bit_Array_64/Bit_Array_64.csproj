@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2A67A40A-6A85-41FC-837F-A91ADD58C7AF}</ProjectGuid>
+    <ProjectGuid>{A9F0480D-8887-477F-9275-9C4A465A08AA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ProgramForReadNr</RootNamespace>
-    <AssemblyName>ProgramForReadNr</AssemblyName>
+    <RootNamespace>Bit_Array_64</RootNamespace>
+    <AssemblyName>Bit_Array_64</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DuplicateNumberException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReadNr.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
